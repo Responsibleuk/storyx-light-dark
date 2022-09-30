@@ -896,7 +896,7 @@ kbd {
 .cs-section_heading.cs-style3 .cs-section_title {
   margin-bottom: 0;
   padding-bottom: 12px;
-  color: white;
+  
 }
 
 .cs-section_heading.cs-style3 .cs-section_seperator {
@@ -5971,12 +5971,11 @@ li.menu-item-has-children
 12. Card
 ----------------------------------------------------------------*/
 .simple-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  padding-left: 100px;
-  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  max-width: 800px;
   background-color: #fff;
-  max-width: 30vw;
 }
 
 
@@ -6833,7 +6832,6 @@ li.menu-item-has-children
 .cs-iconbox.cs-style1 .cs-iconbox_title {
   font-size: 20px;
   margin-bottom: 20px;
-  color: white;
 }
 
 .cs-iconbox.cs-style1 .cs-iconbox_icon {
@@ -6885,11 +6883,10 @@ li.menu-item-has-children
 
 .cs-iconbox.cs-style3 .cs-iconbox_text {
   margin-bottom: 20px;
-  color: white;
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_btn {
-  color: white;
+  color: #3772ff;
   font-weight: 600;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
