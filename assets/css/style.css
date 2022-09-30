@@ -611,8 +611,8 @@ kbd {
 }
 
 .cs-box_shadow {
-  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.08);
+          box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.08);
 }
 
 .cs-gray_bg {
