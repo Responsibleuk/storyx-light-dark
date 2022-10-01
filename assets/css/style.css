@@ -5105,7 +5105,7 @@ li.menu-item-has-children
 10. Footer
 ----------------------------------------------------------------*/
 .cs-footer.cs-style1 {
-  background-color: #050023;
+  background-color: #000000;
   position: relative;
   color: #d4d4d4;
   font-weight: 500;
@@ -5128,7 +5128,7 @@ li.menu-item-has-children
   width: 100%;
   left: 0;
   top: 0;
-  background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%);
+  /* background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%); */
   opacity: 0.5;
 }
 
@@ -5186,7 +5186,7 @@ li.menu-item-has-children
 .cs-footer.cs-style1 .cs-footer_separetor {
   height: 1px;
   width: 100%;
-  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.5) 0%, rgba(63, 94, 251, 0.5) 100%);
+  background: white;
 }
 
 .cs-footer.cs-style1 .cs-footer_widget {
@@ -5233,7 +5233,7 @@ li.menu-item-has-children
   border-radius: inherit;
   left: 0;
   top: 0;
-  background: linear-gradient(116.85deg, #FC466B 0%, #3F5EFB 100%);
+  background: black;
   opacity: 0.15;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
