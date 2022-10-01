@@ -225,7 +225,7 @@ kbd {
 }
 
 .cs-preloader_in {
-  
+
   background: linear-gradient(116.85deg, #ffffff 0%, #939393 100%);
   border-radius: 50%;
   width: 40px;
@@ -628,16 +628,16 @@ kbd {
   background-color: #fff;
 }
 
-.cs-blue_bg {
-  background-color: rgb(47, 20, 169);
-}
-
-.cs-orange_bg {
-  background-color: rgb(206, 130, 17);
+.cs-green_bg {
+  background-color: #4F7657;
 }
 
 .cs-yellow_bg {
-  background-color: rgb(199, 210, 36);
+  background-color: #ECAF32;
+}
+
+.cs-orange_bg {
+  background-color: #FF7664;
 }
 
 .cs-white_color {
@@ -6886,6 +6886,10 @@ li.menu-item-has-children
   margin-bottom: 20px;
 }
 
+.cs-iconbox_text_white {
+  color: white;
+}
+
 .cs-iconbox.cs-style3 .cs-iconbox_btn {
   color: #3772ff;
   font-weight: 600;
@@ -6905,6 +6909,11 @@ li.menu-item-has-children
   text-decoration: underline;
   color: #3772ff;
 }
+
+
+/* iconbox green */
+
+
 
 .cs-iconbox.cs-style4 {
   background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.15) 0%, rgba(63, 94, 251, 0.15) 100%);
