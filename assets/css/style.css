@@ -225,6 +225,7 @@ kbd {
 }
 
 .cs-preloader_in {
+  
   background: linear-gradient(116.85deg, #ffffff 0%, #939393 100%);
   border-radius: 50%;
   width: 40px;
@@ -7622,7 +7623,7 @@ body.cs-dark .cs-modal_overlay {
 
 
 .topright {
-  position: absolute;
+  position: relative;
   top: 8px;
   right: 16px;
   font-size: 18px;
