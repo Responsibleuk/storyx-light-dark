@@ -7619,3 +7619,11 @@ body.cs-dark .cs-modal_overlay {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
