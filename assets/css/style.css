@@ -5264,34 +5264,34 @@ li.menu-item-has-children
   padding: 10px 20px;
   border: none;
   border-radius: 2em;
-  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.1) -83.71%, rgba(63, 94, 251, 0.1) 16.29%);
-  background: #3d3288;
+  background: white;
+  
   outline: none;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .cs-footer_newsletter .cs-newsletter_input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color: grey;
 }
 
 .cs-footer_newsletter .cs-newsletter_input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color: grey;
 }
 
 .cs-footer_newsletter .cs-newsletter_input::-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color: grey;
 }
 
 .cs-footer_newsletter .cs-newsletter_input::placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color: grey;
 }
 
 .cs-footer_newsletter .cs-newsletter_input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color: grey;
 }
 
 .cs-footer_newsletter .cs-newsletter_input::-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color: grey;
 }
 
 .cs-footer_newsletter .cs-newsletter_btn {
