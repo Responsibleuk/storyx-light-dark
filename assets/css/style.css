@@ -6835,6 +6835,10 @@ li.menu-item-has-children
   margin-bottom: 20px;
 }
 
+.cs-iconbox_title_white{
+  color: white;
+}
+
 .cs-iconbox.cs-style1 .cs-iconbox_icon {
   margin-bottom: 25px;
 }
