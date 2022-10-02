@@ -5334,6 +5334,25 @@ li.menu-item-has-children
  
 }
 
+.quote {
+  max-width: 60vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-top {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero-top-text {
+  
+  max-width: 90vw;
+ 
+}
+}
+
 
 
 .cs-hero_btn.cs-style1 {
@@ -6895,7 +6914,7 @@ li.menu-item-has-children
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_btn {
-  color: #3772ff;
+  color: #FF7664;
   font-weight: 600;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -6903,6 +6922,23 @@ li.menu-item-has-children
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.cs-iconbox.cs-style3 .cs-iconbox_btn_white {
+  color: #ffffff;
+  
+  margin-top: 30px;
+  font-weight: 600;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cs-iconbox_btn_white:hover {
+  color: #0E3A8C;
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_btn i, .cs-iconbox.cs-style3 .cs-iconbox_btn svg {
@@ -7100,6 +7136,18 @@ li.menu-item-has-children
   margin-bottom: 15px;
 }
 
+.cs-cta.cs-style1 .cs-cta_quote {
+  font-size: 36px;
+  margin-bottom: 15px;
+  max-width: 50vw;
+}
+
+.cs-cta.cs-style1 .cs-cta_quote {
+  font-size: 36px;
+  margin-bottom: 15px;
+  max-width: 500px;
+}
+
 .cs-cta.cs-style1 .cs-cta_subtitle {
   margin-bottom: 22px;
 }
@@ -7125,6 +7173,8 @@ li.menu-item-has-children
   font-size: 36px;
   margin-bottom: 14px;
 }
+
+
 
 .cs-cta.cs-style2 .cs-cta_subtitle {
   font-size: 18px;
