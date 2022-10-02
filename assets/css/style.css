@@ -7724,6 +7724,12 @@ body.cs-dark .cs-modal_overlay {
   
 }
 
+.container-services-text{
+  padding-top: 20px;
+  padding-right: 20px;
+  
+}
+
 .no-margin {
   margin-top: 0px;
   margin-bottom: 0px;
