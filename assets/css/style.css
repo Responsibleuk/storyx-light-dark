@@ -571,6 +571,17 @@ kbd {
   background-color: #ffffff;
 }
 
+@media screen and (max-width: 991px) {
+  .container-fluid {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 25px;
+    margin: auto;
+    max-width: 1650px;
+    background-color: #ffffff;
+  }
+}
+
 .cs-center {
   display: -webkit-box;
   display: -ms-flexbox;
