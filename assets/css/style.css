@@ -63,19 +63,19 @@ h6 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 38px;
 }
 
 h2 {
-  font-size: 36px;
-}
-
-h3 {
   font-size: 30px;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 h4 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h5 {
