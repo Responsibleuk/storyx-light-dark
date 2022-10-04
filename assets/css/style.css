@@ -5357,6 +5357,7 @@ li.menu-item-has-children
 .quote {
   max-width: 60vw;
   margin: auto;
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 991px) {
@@ -6020,6 +6021,7 @@ li.menu-item-has-children
 
 @media screen and (max-width: 767px) {
   .simple-text {
+    font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
