@@ -220,61 +220,55 @@ kbd {
 /*--------------------------------------------------------------
 2. Preloader
 ----------------------------------------------------------------*/
-.cs-preloader {
-  position: fixed;
-  z-index: 99999;
-  top: 0;
+/* PreLoad
+-------------------------------------------------------------- */
+.preload {
+  overflow: hidden;
+}
+
+.preload-container {
+  position: relative;
   width: 100%;
-  height: 100vh;
-  background: #000000;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.cs-preloader_in {
-
-  background: linear-gradient(116.85deg, #ffffff 0%, #939393 100%);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  left: 0;
+  height: 100%;
+  background: #fff;
+  position: fixed;
   top: 0;
-  -webkit-animation: spin 0.5s ease-in-out infinite;
-          animation: spin 0.5s ease-in-out infinite;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999999999;
+  display: block;
+  overflow: hidden;
 }
 
-.cs-preloader span {
-  font-weight: 600;
+.preload-logo {
+  position: absolute;
+  top: 50%;
   left: 50%;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  margin-top: 12px;
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  margin: -30px 0 0 -30px;
+  background: #ffffff;
+  border-radius: 50%;
+  background-image: url("../../assets/img/x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation: preload 1s linear infinite alternate;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
 }
 
 @keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
+.tf-section {
+  position: relative;
+  padding: 80px 0;
+  margin-bottom: 0 !important;
+}
 /*--------------------------------------------------------------
 3. Spacing
 ----------------------------------------------------------------*/
