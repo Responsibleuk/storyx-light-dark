@@ -655,6 +655,7 @@ kbd {
 }
 
 .cs-bg_nhs {
+  background-image: data-src"../as";
   background-color: blue;
 }
 
