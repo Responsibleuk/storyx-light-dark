@@ -5479,7 +5479,7 @@ li.menu-item-has-children
 
 .cs-hero.cs-style1 .cs-hero_subtitle {
   margin-bottom: 30px;
-  padding-left: 15px;
+  padding-left: 5px;
   font-size: 18px;
   line-height: 1.5em;
 }
@@ -5736,7 +5736,7 @@ li.menu-item-has-children
 }
 
 .cs-hero_btns {
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .cs-hero.cs-style5 .cs-hero_btns {
