@@ -217,6 +217,23 @@ kbd {
   font-weight: bold;
 }
 
+
+.padding-left {
+  padding-left: 200px;
+}
+
+.padding-left-100 {
+  padding-left: 100px;
+}
+
+.padding-left-50 {
+  padding-left: 250px;
+}
+
+.padding-left3 {
+  padding-left: 300px;
+}
+
 /*--------------------------------------------------------------
 2. Preloader
 ----------------------------------------------------------------*/
@@ -654,9 +671,23 @@ kbd {
   background-color: #FF7664;
 }
 
+.cs-bg_chilli {
+  background: url(../img/work/chilli-bg.jpg)
+}
+
 .cs-bg_nhs {
-  background-image: data-src"../as";
-  background-color: blue;
+  background: url(../img/work/nhs-bg.jpg)
+  
+}
+
+.cs-bg_golf {
+  background: url(../img/work/golf-bg.jpg)
+  
+}
+
+.cs-bg_butterfly {
+  background: url(../img/work/butterfly-bg.jpg)
+  
 }
 
 .cs-white_color {
@@ -1238,6 +1269,32 @@ kbd {
 .cs-contact_card .cs-contact_text {
   margin: 0;
   color: rgba(115, 122, 153, 0.5);
+}
+
+
+
+
+.card {
+  border: none;
+}
+
+.card .card-img {
+  position: relative;
+}
+
+.card .card-img .card-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background: linear-gradient(to bottom, transparent 0%, transparent 25%, transparent 35%, rgba(22, 28, 45, 0.9) 100%);
+  transition: all 0.5s ease;
+}
+
+.card:hover .card-img .card-overlay {
+  opacity: 1;
 }
 
 .cs-form_field_wrap {
