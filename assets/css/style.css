@@ -654,6 +654,10 @@ kbd {
   background-color: #FF7664;
 }
 
+.cs-bg_nhs {
+  background-color: blue;
+}
+
 .cs-white_color {
   color: #fff;
 }
