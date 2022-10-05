@@ -7761,6 +7761,10 @@ body.cs-dark .cs-modal_overlay {
   color: white;
 }
 
+.about-text h3{
+  color: white;
+}
+
 .no-margin {
   margin-top: 0px;
   margin-bottom: 0px;
