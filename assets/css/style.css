@@ -701,13 +701,25 @@ padding-top: 50px;
   background: url(../img/work/chilli-bg.jpg)
 }
 
+.cs-bg_fibodo {
+  background: url(../img/work/fibodo.jpg)
+}
+
+.cs-bg_inspirit {
+  background: url(../img/work/inspirit.jpg)
+}
+
+.cs-bg_genext {
+  background: url(../img/work/genext.jpg)
+}
+
 .cs-bg_nhs {
-  background: url(../img/work/nhs-bg.jpg)
+  background: url(../img/work/nhs.jpg)
   
 }
 
 .cs-bg_golf {
-  background: url(../img/work/golf-bg.jpg)
+  background: url(../img/work/golf.jpg)
   
 }
 
@@ -7021,6 +7033,11 @@ li.menu-item-has-children
 
 .cs-iconbox.cs-style3 .cs-iconbox_img {
   margin-bottom: 20px;
+}
+
+.cs-iconbox.cs-style3 .cs-iconbox_img_work {
+  margin-bottom: 20px;
+  float: left;
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_text {
