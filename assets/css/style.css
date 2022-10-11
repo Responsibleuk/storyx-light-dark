@@ -137,7 +137,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #3772ff;
+  color: #6d6d6d;
 }
 
 button {
@@ -4936,7 +4936,7 @@ kbd {
   height: 75px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1800px) {
   .cs-mobile_search_toggle {
     display: none;
   }
@@ -5159,7 +5159,7 @@ kbd {
   }
 }
 
-@media screen and (max-width: 1560px) {
+@media screen and (max-width: 1860px) {
   .cs-site_header.cs-style1 .cs-main_header_right>*:not(:last-child) {
     margin-right: 30px;
   }
@@ -5170,7 +5170,7 @@ kbd {
   }
 }
 
-@media screen and (max-width: 1480px) {
+@media screen and (max-width: 1880px) {
   .cs-site_header {
     font-size: 14px;
   }
@@ -5190,20 +5190,20 @@ kbd {
   }
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1870px) {
   .cs-header_btns>.cs-btn {
     display: none;
   }
 }
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1880px) {
   .cs-site_header_full_width .container {
     max-width: 100%;
     padding: 0 15px;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1899px) {
   .cs-munu_dropdown_toggle {
     position: absolute;
     height: 30px;
@@ -5239,10 +5239,13 @@ kbd {
   }
 
   .cs-nav .cs-nav_list {
-    position: absolute;
-    width: 100vw;
-    left: -15px;
-    background-color: #fff;
+    position: relative;
+    width: 30vw;
+    /* right: -15px; */
+    margin-top: 300px;
+    padding-right: 150px;
+    color: white;
+    background-color: rgb(86, 158, 226);
     padding: 10px 0;
     display: none;
     top: 100%;
@@ -5253,6 +5256,13 @@ kbd {
     line-height: 1.6em;
   }
 
+  .cs-nav .cs-nav_list p {
+    display: block;
+    padding: 8px 20px;
+    font-size: 15px;
+    line-height: 2px;
+  }
+
   .cs-nav .cs-nav_list ul {
     padding-left: 15px;
     display: none;
@@ -5261,6 +5271,16 @@ kbd {
   .cs-nav .cs-nav_list a {
     display: block;
     padding: 8px 20px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .cs-nav .cs-nav_list a .email{
+    display: block;
+    padding: 8px;
+    padding-top: 30px;
+    font-size: 28px;
+    line-height: 35px;
   }
 
   .cs-nav .menu-item-has-children {
