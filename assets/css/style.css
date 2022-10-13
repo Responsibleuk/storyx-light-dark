@@ -503,6 +503,10 @@ kbd {
   .cs-height_210 {
     height: 210px;
   }
+
+  .cs-height_250 {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -676,6 +680,10 @@ kbd {
 
   .cs-height_lg_210 {
     height: 210px;
+  }
+
+  .cs-height_lg_250 {
+    height: 250px;
   }
 }
 
@@ -5933,7 +5941,21 @@ kbd {
 
 .hero-top-text {
 
-  max-width: 40vw;
+  max-width: 900px;
+  font-weight: bold;
+  font-size: 85px;
+  /* margin-bottom: 200px; */
+  
+
+}
+
+.hero-top-text-sub {
+
+  max-width: 900px;
+  
+  font-size: 35px;
+  margin-bottom: 200px;
+  
 
 }
 
@@ -7819,27 +7841,28 @@ kbd {
 }
 
 .max-300 {
-  max-width: 360px;
-  margin-right: 200px;
+  max-width: 560px;
+  margin-right: 100px;
 }
 
 .cs-cta.cs-style1 .cs-cta_img {
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
-  width: 50%;
+  width: 40%;
   padding-right: 100px;
 }
 
 .cs-cta.cs-style1 .cs-cta_title {
-  font-size: 36px;
+  font-size: 46px;
   margin-bottom: 15px;
+  font-weight: bolder;
 }
 
 .cs-cta.cs-style1 .cs-cta_quote {
   font-size: 36px;
   margin-bottom: 15px;
-  max-width: 50vw;
+  max-width: 600px;
 }
 
 .cs-cta.cs-style1 .cs-cta_quote {
