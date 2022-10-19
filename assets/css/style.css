@@ -5261,13 +5261,13 @@ kbd {
   }
 
   .cs-nav .cs-nav_list {
-    position: absolute;
+    position: relative;
     width: 30vw;
     /* right: -15px; */
     margin-top: 300px;
     padding-right: 150px;
     color: white;
-    background-color: #E4F5FF;
+    background-color: rgb(86, 158, 226);
     padding: 10px 0;
     display: none;
     top: 100%;
