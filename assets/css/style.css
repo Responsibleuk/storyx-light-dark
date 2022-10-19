@@ -189,6 +189,10 @@ kbd {
   border-radius: 5px;
 }
 
+.competencies {
+  background-color: #c2c3c3;
+}
+
 @media screen and (max-width: 991px) {
 
   body,
