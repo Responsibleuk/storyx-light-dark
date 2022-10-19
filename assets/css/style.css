@@ -7911,7 +7911,7 @@ kbd {
   max-width: 50%;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 975px) {
 .cs-cta.cs-style1.cs-type1 .cs-cta_right {
   max-width: 95%;
 }
