@@ -7647,8 +7647,6 @@ kbd {
 
 .cs-iconbox.cs-style3 .cs-iconbox_btn_white {
   color: #ffffff;
-
-  margin-top: 30px;
   font-weight: 600;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -7670,6 +7668,16 @@ kbd {
 .cs-iconbox.cs-style3 .cs-iconbox_btn:hover {
   text-decoration: underline;
   color: #3772ff;
+}
+
+.cs-iconbox.cs-style3 .cs-iconbox_btn_white i,
+.cs-iconbox.cs-style3 .cs-iconbox_btn_white svg {
+  margin-left: 8px;
+}
+
+.cs-iconbox.cs-style3 .cs-iconbox_btn_white:hover {
+  text-decoration: underline;
+  color: #FF7664;
 }
 
 
