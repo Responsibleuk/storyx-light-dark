@@ -7911,6 +7911,11 @@ kbd {
   max-width: 50%;
 }
 
+@media screen and (max-width: 575px) {
+.cs-cta.cs-style1.cs-type1 .cs-cta_right {
+  max-width: 95%;
+}
+
 .cs-cta.cs-style1.cs-type1 .cs-cta_img {
   padding-right: 0px;
   padding-left: 100px;
