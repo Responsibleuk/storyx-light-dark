@@ -5987,8 +5987,18 @@ kbd {
 
     font-weight: bold;
     font-size: 35px;
-    max-width: 90vw;
+    max-width: 95vw;
 
+  }
+
+  .hero-top-text-sub {
+
+    max-width: 95px;
+  
+    font-size: 25px;
+    margin-bottom: 200px;
+  
+  
   }
 
 }
