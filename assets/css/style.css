@@ -5284,7 +5284,7 @@ kbd {
 
   .cs-nav .cs-nav_list img {
     margin-bottom: 6px;
- 
+
   }
 
   .cs-nav .cs-nav_list p {
@@ -5306,7 +5306,7 @@ kbd {
     line-height: 50px;
   }
 
-  .cs-nav .cs-nav_list a .email{
+  .cs-nav .cs-nav_list a .email {
     display: block;
     padding: 8px;
     padding-top: 30px;
@@ -5500,7 +5500,7 @@ kbd {
 
   .cs-nav .cs-nav_list img {
     margin-bottom: 6px;
- 
+
   }
 
   .cs-nav .cs-nav_list p {
@@ -5522,7 +5522,7 @@ kbd {
     line-height: 50px;
   }
 
-  .cs-nav .cs-nav_list a .email{
+  .cs-nav .cs-nav_list a .email {
     display: block;
     padding: 8px;
     padding-top: 30px;
@@ -5953,17 +5953,17 @@ kbd {
   font-weight: bold;
   font-size: 85px;
   /* margin-bottom: 200px; */
-  
+
 
 }
 
 .hero-top-text-sub {
 
   max-width: 900px;
-  
-  font-size: 35px;
+
+  font-size: 33px;
   margin-bottom: 200px;
-  
+
 
 }
 
@@ -5981,11 +5981,16 @@ kbd {
     padding-right: 20px;
   }
 
+
   .hero-top-text {
 
+
+    font-weight: bold;
+    font-size: 55px;
     max-width: 90vw;
 
   }
+
 }
 
 
