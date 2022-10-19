@@ -7851,6 +7851,7 @@ kbd {
   flex: none;
   width: 40%;
   padding-right: 100px;
+  border-radius: 25px;
 }
 
 .cs-cta.cs-style1 .cs-cta_title {
