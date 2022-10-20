@@ -844,6 +844,23 @@ kbd {
   }
 }
 
+
+.cs-bg_design {
+  min-height: 300px;
+  min-width: 500px;
+  background: url(../img/work/design.jpg);
+  position: relative; top: -125px;
+}
+
+
+@media screen and (max-width: 991px) {
+  .cs-bg_design {
+    min-height: 250px;
+    max-width: 200px;
+    
+  }
+}
+
 .cs-bg_story {
   min-height: 550px;
   background: url(../img/home/story.jpg)
@@ -853,6 +870,19 @@ kbd {
 @media screen and (max-width: 991px) {
   .cs-bg_story {
     min-height: 350px;
+  }
+}
+
+.cs-bg_cornwall {
+  min-height: 550px;
+  background: url(../img/home/cornwall-1.jpg)
+  
+}
+
+@media screen and (max-width: 991px) {
+  .cs-bg_cornwall {
+    min-height: 350px;
+    background: url(../img/home/cornwall-1.jpg)
   }
 }
 
