@@ -7876,6 +7876,13 @@ kbd {
   margin-right: 100px;
 }
 
+@media screen and (max-width: 991px) {
+  .max-300 {
+    max-width: 560px;
+  margin-right: 5px;
+  }
+}
+
 .cs-cta.cs-style1 .cs-cta_img {
   -webkit-box-flex: 0;
   -ms-flex: none;
