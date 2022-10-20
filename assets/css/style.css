@@ -828,12 +828,12 @@ kbd {
   min-height: 250px;
   min-width: 500px;
   background: url(../img/work/laptop-colour.jpg);
-  position: relative; top: -200px;
+  position: relative; top: -125px;
 }
 
 .move-up {
   
-  position: relative; top: -150px;
+  position: relative; top: -50px;
 }
 
 @media screen and (max-width: 991px) {
@@ -893,7 +893,7 @@ kbd {
 }
 
 .cs-bg_nhs {
-  margin-right: 25px;
+  
   background: url(../img/work/nhs.jpg)
 }
 
@@ -7714,7 +7714,7 @@ kbd {
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_btn {
-  color: #FF7664;
+  color: #d3fcff;
   font-weight: 600;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -7745,8 +7745,8 @@ kbd {
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_btn:hover {
-  text-decoration: underline;
-  color: #3772ff;
+  transform: scale(1.2);
+  color: #d8e587;
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_btn_white i,
@@ -7934,6 +7934,8 @@ kbd {
   border-radius: 15px;
   background-color: rgba(255, 254, 254, 0.1);
 }
+
+
 
 .max-300 {
   max-width: 560px;
