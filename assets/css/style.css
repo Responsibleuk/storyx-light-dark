@@ -839,7 +839,7 @@ kbd {
 @media screen and (max-width: 991px) {
   .cs-bg_laptop {
     min-height: 250px;
-    max-width: 90%;
+    max-width: 200px;
     
   }
 }
@@ -876,7 +876,8 @@ kbd {
 
 @media screen and (max-width: 991px) {
   .cs-bg_store {
-    min-height: 350px;
+    min-height: 175px;
+    max-width: 175vw;
   }
 }
 
