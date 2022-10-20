@@ -193,6 +193,10 @@ kbd {
   background-color: #E4F5FF;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 @media screen and (max-width: 991px) {
 
   body,
@@ -813,8 +817,67 @@ kbd {
   background: url(../img/work/chilli-bg.jpg)
 }
 
+.cs-bg_store {
+  min-height: 650px;
+  min-width: 500px;
+  background: url(../img/work/store.jpg);
+  position: relative; top: -50px;
+}
+
+.cs-bg_laptop {
+  min-height: 250px;
+  min-width: 500px;
+  background: url(../img/work/laptop-colour.jpg);
+  position: relative; top: -200px;
+}
+
+.move-up {
+  
+  position: relative; top: -150px;
+}
+
+@media screen and (max-width: 991px) {
+  .cs-bg_laptop {
+    min-height: 250px;
+    max-width: 90%;
+    
+  }
+}
+
 .cs-bg_story {
+  min-height: 550px;
   background: url(../img/home/story.jpg)
+  
+}
+
+@media screen and (max-width: 991px) {
+  .cs-bg_story {
+    min-height: 350px;
+  }
+}
+
+.cs-bg_app {
+  min-height: 350px;
+  background: url(../img/home/booking-app.jpg)
+  
+}
+
+@media screen and (max-width: 991px) {
+  .cs-bg_app {
+    min-height: 350px;
+  }
+}
+
+.cs-bg_store {
+  min-height: 650px;
+  background: url(../img/work/store.jpg)
+  
+}
+
+@media screen and (max-width: 991px) {
+  .cs-bg_store {
+    min-height: 350px;
+  }
 }
 
 .cs-bg_fibodo {
@@ -830,6 +893,7 @@ kbd {
 }
 
 .cs-bg_nhs {
+  margin-right: 25px;
   background: url(../img/work/nhs.jpg)
 }
 
@@ -7892,6 +7956,15 @@ kbd {
   border-radius: 25px;
 }
 
+.cs-cta.cs-style1 .cs-cta_img_home {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  width: 60%;
+  padding-right: 100px;
+  border-radius: 25px;
+}
+
 .cs-cta.cs-style1 .cs-cta_title {
   font-size: 46px;
   margin-bottom: 15px;
@@ -7920,6 +7993,16 @@ kbd {
 
 @media screen and (max-width: 975px) {
 .cs-cta.cs-style1.cs-type1 .cs-cta_right {
+  max-width: 95%;
+}
+
+.cs-cta.cs-style1.cs-type1 .cs-cta_right_home {
+  max-width: 50%;
+  margin-left: 500px;
+}
+
+@media screen and (max-width: 975px) {
+.cs-cta.cs-style1.cs-type1 .cs-cta_right_home {
   max-width: 95%;
 }
 
