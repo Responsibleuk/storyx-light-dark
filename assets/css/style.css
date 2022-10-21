@@ -875,14 +875,14 @@ kbd {
 
 .cs-bg_cornwall {
   min-height: 550px;
-  background: url(../img/home/cornwall-1.jpg)
+  background: url(../img/home/cornwall-2.jpg)
   
 }
 
 @media screen and (max-width: 991px) {
   .cs-bg_cornwall {
     min-height: 350px;
-    background: url(../img/home/cornwall-1.jpg)
+    background: url(../img/home/cornwall-2.jpg)
   }
 }
 
