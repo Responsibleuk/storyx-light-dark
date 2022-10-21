@@ -193,6 +193,10 @@ kbd {
   background-color: #E4F5FF;
 }
 
+.competencies-padding {
+  padding-left: 200px;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -817,6 +821,19 @@ kbd {
   background: url(../img/work/chilli-bg.jpg)
 }
 
+.cs-bg_sustainability {
+  background: url(../img/about/sustainability-bg.jpg)
+}
+
+.cs-bg_circle {
+  background: url(../img/about/circle-bg.jpg)
+}
+
+.cs-bg_foundation {
+  background: url(../img/about/foundation-bg.jpg)
+}
+
+
 .cs-bg_store {
   min-height: 650px;
   min-width: 500px;
@@ -834,6 +851,11 @@ kbd {
 .move-up {
   
   position: relative; top: -50px;
+}
+
+.move-up-100 {
+  
+  position: relative; top: -100px;
 }
 
 @media screen and (max-width: 991px) {
