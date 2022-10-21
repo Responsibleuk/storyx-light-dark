@@ -8026,6 +8026,13 @@ kbd {
   font-weight: bolder;
 }
 
+.cs-cta.cs-style1 .cs-cta_title_bob {
+  font-size: 46px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
 .cs-cta.cs-style1 .cs-cta_quote {
   font-size: 36px;
   margin-bottom: 15px;
