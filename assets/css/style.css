@@ -6179,7 +6179,7 @@ kbd {
   max-width: 950px;
   margin: auto;
   font-size: 55px;
-  font-weight: 350;
+  font-weight: 375;
 
   
 
@@ -8102,6 +8102,11 @@ kbd {
   margin-right: 100px;
 }
 
+.max-260 {
+  max-width: 400px;
+  margin-right: 100px;
+}
+
 @media screen and (max-width: 991px) {
   .max-300 {
     max-width: 560px;
@@ -8142,7 +8147,7 @@ kbd {
 .cs-cta.cs-style1 .cs-cta_title {
   font-size: 46px;
   margin-bottom: 15px;
-  font-weight: bolder;
+  font-weight: 550;
 }
 
 .cs-cta.cs-style1 .cs-cta_title_bob {

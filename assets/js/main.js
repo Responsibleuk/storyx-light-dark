@@ -482,3 +482,19 @@
   }
 
 })(jQuery); // End of use strict
+
+
+
+
+
+/* ------------------ TYPED SCRIPT ------------------ */
+
+$(".typed-text").each(function() {
+  var $string = $(this).data("typed-string") ? $(this).data("typed-string").split(",") : [];
+  console.log($string);
+  $(this).typed({
+      strings: $string,
+      typeSpeed: 60
+  });
+
+});
