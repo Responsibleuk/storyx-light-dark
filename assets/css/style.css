@@ -1441,13 +1441,13 @@ padding-bottom: 150px;
   transform: scale(1.05);
 }
 
-.cs-grid_5 {
+/* .cs-grid_5 {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 1fr;
   -ms-grid-columns: (1fr)[5];
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .cs-gap_30 {
   grid-gap: 30px;
@@ -8767,4 +8767,6 @@ body.cs-dark .cs-modal_overlay {
   padding-top: 0px;
   padding-bottom: 0px;
   color: #000;
+}
+}
 }
