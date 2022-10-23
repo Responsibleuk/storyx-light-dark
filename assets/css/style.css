@@ -201,6 +201,17 @@ kbd {
   display: inline-block;
 }
 
+.para {
+  font-size: 18px;
+  color: #000;
+}
+
+.values {
+  border: #0E3A8C;
+  border-radius: 20%;
+  box-shadow: #0E3A8C;
+}
+
 @media screen and (max-width: 991px) {
 
   body,
@@ -284,7 +295,10 @@ kbd {
   }
 }
 
-
+.bold {
+font-weight: bold;
+padding-bottom: 150px;
+}
 
 /*--------------------------------------------------------------
 2. Preloader
@@ -858,6 +872,26 @@ kbd {
   position: relative; top: -100px;
 }
 
+.move-up-150 {
+  
+  position: relative; top: -150px;
+}
+
+.move-up-250 {
+  
+  position: relative; top: -250px;
+}
+
+.move-up-350 {
+  
+  position: relative; top: -350px;
+}
+
+.move-down-50 {
+  
+  position: relative; top: 50px;
+}
+
 @media screen and (max-width: 991px) {
   .cs-bg_laptop {
     min-height: 250px;
@@ -896,7 +930,7 @@ kbd {
 }
 
 .cs-bg_cornwall {
-  min-height: 550px;
+  min-height: 450px;
   background: url(../img/home/cornwall-2.jpg)
   
 }
@@ -905,6 +939,33 @@ kbd {
   .cs-bg_cornwall {
     min-height: 350px;
     background: url(../img/home/cornwall-2.jpg)
+  }
+}
+
+.cs-bg_stones {
+  position: relative; top: -50px;
+  min-height: 350px;
+  background: url(../img/about/stones.jpg)
+  
+}
+
+@media screen and (max-width: 991px) {
+  .cs-bg_stones {
+    min-height: 350px;
+    background: url(../img/about/stones.jpg)
+  }
+}
+
+.cs-bg_app-design {
+  min-height: 650px;
+  background: url(../img/about/app-design.jpg)
+  
+}
+
+@media screen and (max-width: 991px) {
+  .cs-bg_app-design {
+    min-height: 350px;
+    background: url(../img/about/app-design.jpg)
   }
 }
 
